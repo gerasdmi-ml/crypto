@@ -14,3 +14,14 @@ bot is doing the following
 - listening a websocket events (ETHUSDT for this example)
 - running prediction based on pretrained tensorflow model
 - execute set of orders (MARKET, STOP_MARKET, TAKE_PROFIT_MARKET)
+
+
+simple EDA based on CNN.ipynb
+
+example of training for 0.5% price increase for ETH 
+we have quite interesting confusion matrix (see below)
+
+
+                             Pred 0                 Pred 1
+True 0  TN = 169424 (TNR = 100.00%)   FP = 4 (FPR = 0.00%)
+True 1     FN = 7527 (FNR = 99.79%)  TP = 16 (TPR = 0.21%)
